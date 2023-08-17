@@ -1,0 +1,9 @@
+[package]
+edition = "2021"
+name = "fujitsu-bios-password"
+version = "0.1.0"
+authors = ["PolloLoco <polloloco@mailbox.org>"]
+license = "MIT"
+
+[dependencies]
+crc = "3.0"

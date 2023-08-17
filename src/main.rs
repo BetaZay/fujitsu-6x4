@@ -56,14 +56,14 @@ impl fmt::Display for InvalidKey {
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("In order to see the recovery key in the form of `203c-d001-xxxx-xxxx-xxxx-xxxx` you have to enter three specific passwords in the right order.");
-    println!("For my system they are the following:");
-    println!("- `23fbb82a`");
-    println!("- `d2f65c29`");
-    println!("- `ca3db92a`");
-    println!("Depending on your model and BIOS version, those might not work for you. Try using these passwords instead:");
-    println!("- `3hqgo3`");
-    println!("- `jqw534`");
-    println!("- `0qww294e`");
+    println!("For most models they are: ");
+    println!("- `23fbb82a` -");
+    println!("- `d2f65c29` -");
+    println!("- `ca3db92a` -");
+    println!("However some models and BIOS versions might need these instead: ");
+    println!("- `3hqgo3` -");
+    println!("- `jqw534` -");
+    println!("- `0qww294e` -");
 
     println!("\nEnter the recovery key in the format 203c-d001-xxxx-xxxx-xxxx-xxxx:");
     let mut input = String::new();
