@@ -1,8 +1,8 @@
 [package]
 edition = "2021"
-name = "fujitsu-bios-password"
+name = "fujitsu-6x4"
 version = "0.1.0"
-authors = ["PolloLoco <polloloco@mailbox.org>"]
+authors = ["BetaZay <isaiahjclark21@gmail.com>"]
 license = "MIT"
 
 [dependencies]

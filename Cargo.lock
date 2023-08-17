@@ -18,7 +18,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9cace84e55f07e7301bae1c519df89cdad8cc3cd868413d3fdbdeca9ff3db484"
 
 [[package]]
-name = "fujitsu-bios-password"
+name = "fujitsu-6x4"
 version = "0.1.0"
 dependencies = [
  "crc",
